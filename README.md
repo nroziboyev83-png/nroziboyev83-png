@@ -58,7 +58,7 @@ Here are some ideas to get you started:
 <img
 src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200"
 width="100%"
-alt="Porsche sport car"
+alt="porshe sport car"
 />
 
 <h3>⚡ SPEED • POWER • FUTURE ⚡</h3>
