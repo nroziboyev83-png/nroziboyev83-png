@@ -70,10 +70,17 @@ alt="porshe sport car"
 </p>
 
 </div>
+# 🎮 My Gaming Profile
+
+## 🕹️ My Favorite Game
+
+![Gaming](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
+
+### 🔥 Gaming is my passion!
+
 
 <h3>✨ Tashrifingiz uchun rahmat!</h3>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FF7,50:00D9F5,100:00F5A0&height=120&section=footer"/>
 
 </div>
-
