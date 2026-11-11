@@ -80,7 +80,65 @@ alt="porshe sport car"
 
 
 <h3>✨ Tashrifingiz uchun rahmat!</h3>
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FF7,50:00D9F5,100:00F5A0&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5A0,50:00D9F5,100:7B2FF7&height=220&section=header&fontSize=38&fontColor=ffffff&fontAlignY=40&animation=fadeIn"/>
+<svg width="100%" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d9ff00"/>
+      <stop offset="35%" stop-color="#ff00ff"/>
+      <stop offset="65%" stop-color="#0066ff"/>
+      <stop offset="100%" stop-color="#00ff99"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
 
-</div>
+  <rect width="900" height="280" fill="#0d1117"/>
+
+  <rect x="25" y="18" width="850" height="2" fill="url(#neon)"/>
+  <rect x="25" y="260" width="850" height="2" fill="url(#neon)"/>
+
+  <rect x="25" y="40" width="850" height="185" rx="8" fill="#161b22"/>
+
+  <g text-anchor="middle"
+     font-family="monospace"
+     font-size="75"
+     font-weight="900"
+     letter-spacing="-5">
+
+    <text x="453" y="158" fill="#ff00ff" opacity="0.9">
+      NAVRO'ZBEK
+    </text>
+
+    <text x="447" y="154" fill="#00eaff" opacity="0.9">
+      NAVRO'ZBEK
+    </text>
+
+    <text x="450" y="156"
+          fill="#ffffff"
+          stroke="#ffffff"
+          stroke-width="1"
+          filter="url(#glow)">
+      NAVRO'ZBEK
+    </text>
+  </g>
+
+  <g stroke-width="2" opacity="0.9">
+    <path d="M190 125 H710" stroke="#00eaff"/>
+    <path d="M220 135 H680" stroke="#ff00ff"/>
+    <path d="M250 145 H650" stroke="#ffffff"/>
+  </g>
+
+  <g fill="none" stroke="url(#neon)" stroke-width="2">
+    <path d="M25 18 H875"/>
+    <path d="M25 262 H875"/>
+  </g>
+</svg>
+
